@@ -71,3 +71,5 @@
 - [asciinema](https://asciinema.org/)
 
 - [油猴脚本](https://greasyfork.org/zh-CN/scripts)
+
+- [机器学习训练集](https://www.cnblogs.com/qianchaomoon/p/12324905.html)

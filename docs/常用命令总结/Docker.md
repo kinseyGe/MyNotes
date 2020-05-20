@@ -1,3 +1,7 @@
+- docker基础镜像
+
+![docker基础镜像](https://s1.ax1x.com/2020/05/20/YTncnJ.jpg)
+
 - 查看正在运行的容器
 
 ```

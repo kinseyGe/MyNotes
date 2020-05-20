@@ -63,7 +63,26 @@ pip3 install cffi  --index-url=http://192.168.5.59:8000/simple --trusted-host 19
     ```
     python build_pyd.py build_ext --inplace
     ```
-    ![cython](https://pic.cdn.lizenghai.com/uploads/2018/08/006-1-1.png)
+    ![cython](https://s1.ax1x.com/2020/05/20/YTnFfK.png)
+
     此时，我们删除build、disk文件夹，重复步骤二，再次编译为exe即可。**注意：编译需要相关的VC环境，因为python3.5是基于 VS14版本的，所以我这里安装的也是。不安装是无法编译的。**
 
     > 参考链接 https://www.lizenghai.com/archives/898.html
+
+- pip指定阿里云镜像源安装模块
+
+```
+pip3 install flask -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+```
+
+- python命令运行时如何不生成\_\_pycache\_\_文件
+
+```
+方式一：设置环境变量(最常用的)
+  export PYTHONDONTWRITEBYTECODE=1
+方式二：使用 -B参数
+  python -B test.py
+方式三：在导入的地方写
+  import sys
+  sys.dont_write_bytecode = True
+```

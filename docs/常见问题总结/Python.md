@@ -23,6 +23,7 @@ DOWNLOADER_MIDDLEWARES = {
    'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware':400,# 开启
 }
 ```
+---
 - 问题描述: 设置download_delay
 
 > 他的作用主要是设置下载的等待时间，下载等待时间长，不能满足段时间大规模抓取的要求，太短则大大增加了被ban的几率
@@ -50,4 +51,26 @@ COOKIES_ENABLES=False
 ```
 ./configure --prefix=/usr/local/python3/ --enable-shared
 make && make install
+```
+---
+
+- 问题描述: pip 安装模块报错
+
+![pip安装模块报错](https://s1.ax1x.com/2020/05/20/YTmPxg.jpg)
+
+**解决方案**
+```
+yum -y install openssl openssl-devel
+
+重新编译安装python
+```
+---
+
+- 问题描述: 安装bs4报错
+
+> bs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+
+**解决方案**
+```
+pip3 install lxml==4.5.0
 ```
