@@ -1,0 +1,4 @@
+- 发展经历
+  - Iaas(Infrastructure as a service 基础设施即服务) 代表阿里云
+  - paas(platform as a service 平台即服务) 代表新浪云
+  - sass(software as a service 软件即服务) 代表office
