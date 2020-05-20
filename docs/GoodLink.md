@@ -68,6 +68,8 @@
 
 - [小贱贱图床](https://pic.xiaojianjian.net/)
 
+- [路过图床](https://imgchr.com/)
+
 - [asciinema](https://asciinema.org/)
 
 - [油猴脚本](https://greasyfork.org/zh-CN/scripts)

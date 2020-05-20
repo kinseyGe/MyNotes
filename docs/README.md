@@ -14,5 +14,11 @@
 
 >:question: 如有问题或疑问请联系作者！
 
+>:star: 如果您喜欢请点击**右上角进行star**给予关注或分享给其他人
+
+# 转载说明
+
+!> **转载请附上原文出处链接及本声明**
+
 # 一个短视频压轴
 :movie_camera: [大数据开源社区10年发展史](https://v.youku.com/v_show/id_XNDM1MDI1MjU0NA==.html?spm=a2h9p.12366999.app.SECTION~MAIN~SECTION~MAIN~5~5!2~5!3~5~5~5~5~5~21~22~TR~TD!2~5~5!2~H4~A)
