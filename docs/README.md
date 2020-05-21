@@ -8,17 +8,15 @@
 
 # 作者信息
 
->:name_badge: Amcoder
+>:man: Amcoder
 
 >:email: 347887659@qq.com
 
->:question: 如有问题或疑问请联系作者！
-
 >:star: 如果您喜欢请点击**右上角进行star**给予关注或分享给其他人
 
-# 转载说明
+# 转载分享
 
-!> **转载请附上原文出处链接及本声明**
+!> **转载请遵循以下声明，谢谢！**</br> ```作者：AmCoder 链接：www.amcoder.cn 来源：AmCoder个人笔记```
 
-# 一个短视频压轴
-:movie_camera: [大数据开源社区10年发展史](https://v.youku.com/v_show/id_XNDM1MDI1MjU0NA==.html?spm=a2h9p.12366999.app.SECTION~MAIN~SECTION~MAIN~5~5!2~5!3~5~5~5~5~5~21~22~TR~TD!2~5~5!2~H4~A)
+# 参与贡献
+!> 1. 如果您对本项目有任何建议或发现文中内容有误的，欢迎提交 issues 进行指正。 </br> 2. 对于文中我没有涉及到知识点，欢迎提交 PR。</br> 3. **一个人的力量毕竟有限，同时也欢迎志同道合的朋友联系我加入进来，一起学习共同进步。**
