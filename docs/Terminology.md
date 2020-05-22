@@ -40,4 +40,11 @@
 ---
 
 - Java Dao层
-  - DAO(**D**ata**A**ccess**o**bjects 数据存取对象)是指位于业务逻辑和持久化数据之间实现对持久化数据的访问。通俗来讲，就是将数据库操作都封装起来。
+  - DAO(**D** ata **A** ccess **o** bjects 数据存取对象)是指位于业务逻辑和持久化数据之间实现对持久化数据的访问。通俗来讲，就是将数据库操作都封装起来。
+
+---
+
+- Iass、Pass、SasS(均属于云服务)
+  - IaaS：Infrastructure-as-a-Service(基础设施即服务)
+  - PaaS：Platform-as-a-Service(平台即服务)
+  - SaaS：Software-as-a-Service(软件即服务)
