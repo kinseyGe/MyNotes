@@ -7,7 +7,7 @@
   <!-- <body oncontextmenu="return false" onselectstart="return false"> -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <link rel="shortcut icon" href="https://s1.ax1x.com/2020/05/22/YL7l5R.png" type="image/x-icon" />
-  <meta name="description" content="Description">
+  <meta name="description" content="主要分享一些作者在工作或者学习中所遇到的一些问题以及记录一些学习到的东西等！">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css"> -->
@@ -36,7 +36,7 @@
       },
       footer: {
             copy: '©2020.',
-            auth: '',
+            auth: '<span id="runtime_span"></span>',
             pre: '<hr>',
             style:'text-align: center;'
         }
@@ -71,10 +71,9 @@
   <script src="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script>
   <!-- footer插件 -->
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
-
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
   <!-- gittalk插件 -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script type="text/javascript">
     var gitalk = new Gitalk({
@@ -86,5 +85,31 @@
       distractionFreeMode: false
     })
   </script> -->
+  <!-- 网站运行时间 -->
+  <script type="text/javascript">
+    function show_runtime(){
+      window.setTimeout("show_runtime()",1000);
+      X=new Date("10/10/2018 00:00:00");
+      Y=new Date();T=(Y.getTime()-X.getTime());
+      M=24*60*60*1000;
+      a=T/M;
+      A=Math.floor(a);b=(a-A)*24;
+      B=Math.floor(b);c=(b-B)*60;
+      C=Math.floor((b-B)*60);
+      D=Math.floor((c-C)*60);
+      runtime_span.innerHTML="网站已勉强运行"+A+"天"+B+"小时"+C+"分"+D+"秒"
+    }
+    show_runtime();
+  </script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?876ef5f9d1aaedee020d5a9f8920421f";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 </body>
 </html>
