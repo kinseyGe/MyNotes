@@ -12,7 +12,7 @@
 
 >:email: 347887659@qq.com
 
->:star: 如果您喜欢请点击**右上角进行star**给予关注或分享给其他人
+>:star: 如果您喜欢请点击 **[右上角进行Star](https://github.com/rzechen/MyNotes.git)** 给予关注，谢谢
 
 # 转载分享
 
