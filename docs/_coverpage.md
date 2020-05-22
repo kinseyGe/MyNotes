@@ -8,6 +8,6 @@
 #### :point_right: 干货博客地址、名词解释说明、学习系列记录、环境安装系列、代码片段记录、常见命令总结、常见问题总结
 如果您喜欢请点击**右上角进行Star**给予关注 :point_left:
 
-:movie_camera: [*大数据开源社区10年发展史*](https://v.youku.com/v_show/id_XNDM1MDI1MjU0NA==.html?spm=a2h9p.12366999.app.SECTION~MAIN~SECTION~MAIN~5~5!2~5!3~5~5~5~5~5~21~22~TR~TD!2~5~5!2~H4~A)
+:movie_camera: [***大数据开源社区10年发展史***](https://v.youku.com/v_show/id_XNDM1MDI1MjU0NA==.html?spm=a2h9p.12366999.app.SECTION~MAIN~SECTION~MAIN~5~5!2~5!3~5~5~5~5~5~21~22~TR~TD!2~5~5!2~H4~A)
 
 [快速开始](README.md)

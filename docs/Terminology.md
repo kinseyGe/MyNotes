@@ -1,10 +1,4 @@
-- <a href="#值类型和引用类型">值类型和引用类型</a>
-- <a href="#DML/DDL/DCL">DML/DDL/DCL</a>
-- <a href="#Java重写和重载">Java重写和重载</a>
-- <a href="#Java Dao层">Java Dao层</a>
----
-
-- <a name="值类型和引用类型">值类型和引用类型</a>
+- 值类型和引用类型
   - 值类型
     - 值类型变量都存储在**堆栈**中。
     - 访问值类型变量时，一般都是直接访问其实例。
@@ -18,8 +12,9 @@
     - 多个引用类型变量都可以引用同一个对象，这种情形下，对一个变量的操作会影响另一个变量所引用的同一对象
     - 引用类型被赋值之前的值都是null
 
+---
 
-- <a name="#DML/DDL/DCL">DML/DDL/DCL</a>
+- DML/DDL/DCL
   - DML(Data Manipulation Language)数据操纵语言
   > 就是我们最经常用到的 SELECT、UPDATE、INSERT、DELETE
 
@@ -29,8 +24,9 @@
   - DCL(Data Control Language)数据库控制语言
   > 是用来设置或更改数据库用户或角色权限的语句，包括（grant,deny,revoke等）语句
 
+---
 
-- <a name="#Java重写和重载">Java重写和重载</a>
+- Java重写和重载
   - 重写(overriding)是**子类对父类的允许访问的方法的实现过程进行重新编写, 返回值和形参都不能改变**
   - 重载(overloading) 是**在一个类里面，方法名字相同，而参数名不一样。返回类型可以相同也可以不同**
   - 重写和重载的区别
@@ -41,6 +37,7 @@
     异常 | 可以减少或删除，一定不能抛出新的或者更广的异常 | 可以修改 |
     访问 | 一定不能做更严格的限制（可以降低限制） | 可以修改 |
 
+---
 
-- <a name="#Java Dao层">Java Dao层</a>
+- Java Dao层
   - DAO(**D**ata**A**ccess**o**bjects 数据存取对象)是指位于业务逻辑和持久化数据之间实现对持久化数据的访问。通俗来讲，就是将数据库操作都封装起来。
