@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?876ef5f9d1aaedee020d5a9f8920421f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 <head>
   <meta charset="UTF-8">
   <title>个人笔记</title>
@@ -13,103 +22,95 @@
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css"> -->
 </head>
 <body>
-  <div id="app"></div>
-  <script>
+	<div id="app"></div>
+	 <script>
 
-    window.$docsify = {
-      name: '个人笔记', <!-- 定义网站主题 -->
-      repo: 'https://github.com/rzechen/MyNotes.git',  <!-- 是否开启GitHub挂件 -->
-      coverpage: true, <!-- 开启渲染封面的功能 -->
-      loadSidebar: true, <!-- 开始左侧目录结构 -->
-      auto2top: false, <!-- 下一页后是否调到头部 -->
-      search: {
-        paths: 'auto',
-        placeholder: '🔍 搜索一下...',
-        noData: '😞 没有搜索到任何内容...',
-        depth: 6 // Headline depth, 1 - 6
-      },
-      pagination: {
-        previousText: '上一篇',
-        nextText: '下一篇',
-        crossChapter: true,
-        crossChapterText: true
-      },
-      footer: {
-            copy: '©2020.',
-            auth: '<span id="runtime_span"></span>',
-            pre: '<hr>',
-            style:'text-align: center;'
-        }
-    }
+	    window.$docsify = {
+	      name: '个人笔记', <!-- 定义网站主题 -->
+	      repo: 'https://github.com/rzechen/MyNotes.git',  <!-- 是否开启GitHub挂件 -->
+	      coverpage: true, <!-- 开启渲染封面的功能 -->
+	      loadSidebar: true, <!-- 开始左侧目录结构 -->
+	      auto2top: false, <!-- 下一页后是否调到头部 -->
+	      search: {
+	        paths: 'auto',
+	        placeholder: '🔍 搜索一下...',
+	        noData: '😞 没有搜索到任何内容...',
+	        depth: 6 // Headline depth, 1 - 6
+	      },
+	      pagination: {
+	        previousText: '上一篇',
+	        nextText: '下一篇',
+	        crossChapter: true,
+	        crossChapterText: true
+	      },
+	      footer: {
+	            copy: '©2020.',
+	            auth: '<span id="runtime_span"></span>',
+	            pre: '<hr>',
+	            style:'text-align: center;'
+	        }
+	    }
 
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <!-- emoji插件 -->
-  <!-- https://gist.github.com/rxaviers/7360908 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-  <!-- 复制代码到剪贴板插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
-  <!-- 放大图片插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <!-- 分页插件 -->
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <!-- 搜索插件 -->
-  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
-  <!-- 语言插件 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-scala.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
-  <!-- 目录折叠 -->
-  <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-  <!-- gif插件 -->
-  <link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
-  <script src="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script>
-  <!-- footer插件 -->
-  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
-  <!-- gittalk插件 -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-  <script type="text/javascript">
-    var gitalk = new Gitalk({
-      clientID: '58193b5adb6e5e96cfc3',
-      clientSecret: '37a9effca8276e9225d80b9229b6fea26c8eae02',
-      repo: 'https://github.com/rzechen/MyNotes.git',
-      owner: 'ranzechen@dingtalk.com',
-      admin: ['ranzechen@dingtalk.com'],
-      distractionFreeMode: false
-    })
-  </script> -->
-  <!-- 网站运行时间 -->
-  <script type="text/javascript">
-    function show_runtime(){
-      window.setTimeout("show_runtime()",1000);
-      X=new Date("10/10/2018 00:00:00");
-      Y=new Date();T=(Y.getTime()-X.getTime());
-      M=24*60*60*1000;
-      a=T/M;
-      A=Math.floor(a);b=(a-A)*24;
-      B=Math.floor(b);c=(b-B)*60;
-      C=Math.floor((b-B)*60);
-      D=Math.floor((c-C)*60);
-      runtime_span.innerHTML="网站已勉强运行"+A+"天"+B+"小时"+C+"分"+D+"秒"
-    }
-    show_runtime();
-  </script>
-  <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?876ef5f9d1aaedee020d5a9f8920421f";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+	</script>
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+	<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+	<!-- emoji插件 -->
+	<!-- https://gist.github.com/rxaviers/7360908 -->
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+	<!-- 复制代码到剪贴板插件 -->
+	<script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+	<!-- 放大图片插件 -->
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+	<!-- 分页插件 -->
+	<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+	<!-- 搜索插件 -->
+	<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+	<!-- 语言插件 -->
+	<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-scala.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
+	<!-- 目录折叠 -->
+	<script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+	<!-- gif插件 -->
+	<link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
+	<script src="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script>
+	<!-- footer插件 -->
+	<script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+	<!-- gittalk插件 -->
+	<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+	<script type="text/javascript">
+	    var gitalk = new Gitalk({
+	      clientID: '58193b5adb6e5e96cfc3',
+	      clientSecret: '37a9effca8276e9225d80b9229b6fea26c8eae02',
+	      repo: 'https://github.com/rzechen/MyNotes.git',
+	      owner: 'ranzechen@dingtalk.com',
+	      admin: ['ranzechen@dingtalk.com'],
+	      distractionFreeMode: false
+	    })
+	</script> -->
+	<!-- 网站运行时间 -->
+	<script type="text/javascript">
+	    function show_runtime(){
+	      window.setTimeout("show_runtime()",1000);
+	      X=new Date("10/10/2018 00:00:00");
+	      Y=new Date();T=(Y.getTime()-X.getTime());
+	      M=24*60*60*1000;
+	      a=T/M;
+	      A=Math.floor(a);b=(a-A)*24;
+	      B=Math.floor(b);c=(b-B)*60;
+	      C=Math.floor((b-B)*60);
+	      D=Math.floor((c-C)*60);
+	      document.getElementById("runtime_span").innerHTML="网站已勉强运行"+A+"天"+B+"小时"+C+"分"+D+"秒"
+	    }
+	    show_runtime();
+	</script>
+
 
 </body>
 </html>
