@@ -68,4 +68,4 @@ class  BaseServiceImpl implements BaseService{
 }
 ```
 ### 运行结果：
-![image](https://note.youdao.com/yws/public/resource/0b8604796ffd024ef2c1a4412881447e/BBC9C5ADA13745F2966B06924E383CD1)
+![image](https://s1.ax1x.com/2020/05/28/tZV4YQ.png)
