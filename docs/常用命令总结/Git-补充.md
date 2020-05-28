@@ -34,7 +34,7 @@
 ```
 
 ##### 三 3种状态
-![image](https://note.youdao.com/yws/public/resource/464818f913c3e84b067f5e995f01890a/FFDF74A49624483DBABD83D6C5B0AF57?ynotemdtimestamp=1590562649432)
+![image](https://note.youdao.com/yws/public/resource/464818f913c3e84b067f5e995f01890a/FFDF74A49624483DBABD83D6C5B0AF57)
 ```
 modified --> staged --> committed
 
@@ -46,7 +46,7 @@ modified --> staged --> committed
 ```
 
 ##### 四 tag标签(tag标签默认是不会被同步或被合并到其他节点的)
-![image](https://note.youdao.com/yws/public/resource/464818f913c3e84b067f5e995f01890a/815A0A4B28AF415DB6B9220DBF151D3D?ynotemdtimestamp=1590562649432)
+![image](https://note.youdao.com/yws/public/resource/464818f913c3e84b067f5e995f01890a/815A0A4B28AF415DB6B9220DBF151D3D)
 ```
 // 添加标签(在commit之后使用)
 >>> git tag -a [标签名] -m "[备注]"
@@ -68,7 +68,7 @@ modified --> staged --> committed
 ```
 
 ##### 五 分支branch
-![image](https://note.youdao.com/yws/public/resource/464818f913c3e84b067f5e995f01890a/CC81EAF8B768472E8C235810B4A19DA8?ynotemdtimestamp=1590562649432)
+![image](https://note.youdao.com/yws/public/resource/464818f913c3e84b067f5e995f01890a/CC81EAF8B768472E8C235810B4A19DA8)
 ```
 // 创建分支
 >>> git branch [分支名]
@@ -87,7 +87,7 @@ modified --> staged --> committed
 ```
 
 ##### 六 合并分支
-![image](https://note.youdao.com/yws/public/resource/464818f913c3e84b067f5e995f01890a/332BCB838D6E46B9B43BDC7271D4E883?ynotemdtimestamp=1590562649432)
+![image](https://note.youdao.com/yws/public/resource/464818f913c3e84b067f5e995f01890a/332BCB838D6E46B9B43BDC7271D4E883)
 ```
 // 合并分支(切换到目标分支执行，以下分支名为源分支)
 // 如果发生冲突手动解决冲突代码后再提交即可
@@ -95,8 +95,9 @@ modified --> staged --> committed
 ```
 
 ##### 七 远程仓库
-![image](https://note.youdao.com/yws/public/resource/464818f913c3e84b067f5e995f01890a/325D573EC5F549BC884AF38A3AEA81C8?ynotemdtimestamp=1590562649432)
+![image](https://note.youdao.com/yws/public/resource/464818f913c3e84b067f5e995f01890a/325D573EC5F549BC884AF38A3AEA81C8)
 ```
+
 // 添加远程仓库
 >>> git remote add [远程名称] [远程地址]
 
