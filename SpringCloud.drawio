@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-06T06:45:13.180Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="gbwvWRMDxvhVwFy73Av8" version="14.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-06T06:46:20.661Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="XSqerOPF2PBpaYQJFRaC" version="14.7.3" type="github" pages="2">
   <diagram id="bZ37ZGZ7B4k1ITamiD-B" name="1.Cloud各种组件的停更/升级/替换">
     <mxGraphModel dx="1016" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,6 +19,14 @@
         <mxCell id="ANNBkyfrbkBloNhP7vyu-13" value="更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="360" width="40" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xQaaR5xYvYabtG_tpyWG" name="2.微服务架构编码构建">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="1-F2jI_9bfJ93XBHY0oj-0" />
+        <mxCell id="1-F2jI_9bfJ93XBHY0oj-1" parent="1-F2jI_9bfJ93XBHY0oj-0" />
       </root>
     </mxGraphModel>
   </diagram>
